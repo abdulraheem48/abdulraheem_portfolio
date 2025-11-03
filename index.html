@@ -8,49 +8,71 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+
   <!-- ===== HEADER ===== -->
   <header class="header">
     <a href="#" class="logo"><span class="first">Abdul</span><span class="last">Raheem</span></a>
     <nav class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
     </nav>
   </header>
 
-  <!-- ===== HOME SECTION ===== -->
-  <section id="home" class="home">
-  <div class="home-content">
-    <h1>Hi, I’m <span>Abdul <span class="highlight">Raheem</span></span></h1>
-    <h2>Data Engineer | Cloud Engineer | Big Data Engineer</h2>
-    <p>I’m a passionate Data Engineer experienced in building scalable data pipelines, optimizing cloud storage, and delivering insights through modern analytics tools.</p>
+  <main id="main-content">
+    <!-- All your sections (home, about, skills, etc.) remain unchanged here -->
+  </main>
 
-    <!-- Buttons -->
-    <div class="home-buttons">
-      <a href="#contact" class="btn talk-btn">
-        <i class='bx bx-message-dots'></i> Talk to Me
-      </a>
-      <a href="data/Abdul_Raheem_Wipro_Data_Engineer.pdf" class="btn download-btn" download>
-        <i class='bx bx-download'></i> Download CV
-      </a>
+
+<!-- ===== HOME SECTION ===== -->
+<section class="home" id="home">
+  <div class="home-container">
+    <!-- Left Side: Text -->
+    <div class="home-text">
+      <h1>Hi, I’m <span>Shaik Abdul Raheem</span></h1>
+      <h3><span id="typing-text"></span><span class="cursor">|</span> </h3>
+      <p>
+        I’m a passionate Data Engineer experienced in building scalable data pipelines,
+        optimizing cloud storage, and delivering insights through modern analytics tools.
+      </p>
+
+      <div class="home-buttons">
+        <a href="#contact" class="btn talk" id="talkBtn">
+          <i class='bx bx-message-dots'></i> Talk to Me
+        </a>
+        <a href="data/Abdul_Raheem_Wipro_Data_Engineer.pdf" class="btn cv" download>
+          <i class='bx bx-download'></i> Download Resume
+        </a>
+      </div>
     </div>
-  </div>
 
-  <div class="home-image">
-    <img src="data/profile.jpg" alt="Abdul Raheem">
+    <!-- Right Side: Image -->
+    <div class="home-img">
+      <img src="data/profile.jpg" alt="Abdul Raheem Profile">
+    </div>
   </div>
 </section>
 
 
-  <!-- ===== ABOUT SECTION ===== -->
-  <section class="about" id="about">
-    <h2 class="heading">About <span>Me</span></h2>
-    <p>Passionate Data Engineer with hands-on experience in building data pipelines, cloud data solutions, and analytics dashboards. Skilled in Azure, AWS, Databricks, PySpark, Airflow, and Snowflake. Enthusiastic about transforming raw data into meaningful insights.</p>
-  </section>
+
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="about">
+  <h2 class="heading">About <span>Me</span></h2>
+  <div class="about-box">
+    <p>
+      Passionate Data Engineer with hands-on experience in building data pipelines, cloud data solutions, and analytics dashboards.vSkilled in Azure, AWS, Databricks, PySpark, Airflow, and Snowflake. Enthusiastic about transforming raw data into meaningful insights.
+    </p>
+  </div>
+</section>
+
+
+
 
  <!-- ===== SKILLS SECTION ===== -->
 <section id="skills" class="skills-section">
@@ -283,33 +305,88 @@
 </section>
 
 
-  <!-- ===== CERTIFICATIONS SECTION ===== -->
-   <!-- ===== CERTIFICATIONS ===== -->
-  <section class="education" id="certifications">
-    <h2 class="heading">My <span>Certifications</span></h2>
-    <ul class="cert-list">
-      <li><a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1762173427093_AZ-900.pdf" target="_blank">Microsoft Azure Fundamentals</a></li>
-      <li><a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383101362_certificate.pdf" target="_blank">Databricks Certified Associate Developer</a></li>
-      <li><a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383181623_AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf" target="_blank">AWS Certified Cloud Practitioner</a></li>
-      <li><a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383219940_AWS%20Certified%20Solutions%20Architect%20-%20Associate%20certificate.pdf" target="_blank">AWS Solutions Architect – Associate</a></li>
-      <li><a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383262419_SnowPro%20Core_S0027861.pdf" target="_blank">SnowPro Core</a></li>
-    </ul>
+<!-- ===== CERTIFICATIONS SECTION ===== -->
+<section class="education" id="certifications">
+  <h2 class="heading">My <span>Certifications</span></h2>
+
+  <div class="cert-container">
+    <div class="cert-card">
+      <img src="data/az-900.png" alt="Azure Fundamentals">
+      <a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1762173427093_AZ-900.pdf" target="_blank">
+        Microsoft Azure Fundamentals - AZ-900
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <img src="data/databrics_sda.png" alt="Databricks Spark Developer">
+      <a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383101362_certificate.pdf" target="_blank">
+        Databricks Certified Associate Developer for Apache Spark 3.0
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <img src="data/aws_ccp.png" alt="AWS CCP">
+      <a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383181623_AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf" target="_blank">
+        AWS Certified Cloud Practitioner
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <img src="data/aws_saa.png" alt="AWS SAA">
+      <a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383219940_AWS%20Certified%20Solutions%20Architect%20-%20Associate%20certificate.pdf" target="_blank">
+        AWS Solutions Architect – Associate
+      </a>
+    </div>
+
+    <div class="cert-card">
+      <img src="data/snowpro.png" alt="SnowPro Core">
+      <a href="https://storage.googleapis.com/bosscoderplatformindia.appspot.com/resume_upload_certificate/USER_ID/1760383262419_SnowPro%20Core_S0027861.pdf" target="_blank">
+        SnowPro Core Certification
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section class="education" id="education">
+    <h2 class="heading">My <span>Education</span></h2>
+      <div class="edu-container">
+        <div class="edu-card">
+          <h3>Devineni Venkata Ramana and Dr. Hima Sekhar MIC College of Technology</h3>
+          <h4>B.Tech in Electrical Engineering | CGPA: 7.62</h4>
+          <p>Jun 2018 – Aug 2021 | Vijayawada</p>
+        </div>
+        
+        <div class="edu-card">
+        <h3>Devineni Venkata Ramana and Dr. Hima Sekhar MIC College of Technology</h3>
+        <h4>Diploma in Electrical Engineering | CGPA: 7.52</h4>
+        <p>Jun 2015 – Apr 2018 | Vijayawada</p>
+        </div>
+      </div>
   </section>
 
-  <!-- ===== CONTACT SECTION ===== -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span></h2>
-    <div class="contact-info">
-      <p><i class='bx bx-envelope'></i> <a href="mailto:abdulraheeem687@gmail.com">abdulraheeem687@gmail.com</a></p>
-      <p><i class='bx bx-phone'></i> <a href="tel:+916303726373">+91 6303726373</a></p>
-      <p><i class='bx bx-map'></i> Hyderabad, India</p>
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/shaik-abdul-raheem-950256176" target="_blank"><i class='bx bxl-linkedin'></i></a>
-        <a href="https://github.com/abdulraheem48" target="_blank"><i class='bx bxl-github'></i></a>
-        <a href="mailto:abdulraheeem687@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
-      </div>
+
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+  <div class="contact-info">
+    <p><i class='bx bx-envelope'></i> 
+      <a href="mailto:abdulraheeem687@gmail.com">abdulraheeem687@gmail.com</a>
+    </p>
+    <p><i class='bx bx-phone'></i> 
+      <a href="tel:+916303726373">+91 6303726373</a>
+    </p>
+    <p><i class='bx bx-map'></i> Hyderabad, India</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/shaik-abdul-raheem-950256176" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/abdulraheem48" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="mailto:abdulraheeem687@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- JS (Load Skill Data First, Then Main Script) -->
   <script src="data/skills_description.js"></script>
