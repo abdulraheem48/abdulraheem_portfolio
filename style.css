@@ -69,6 +69,41 @@ header {
   width: 100%;
 }
 
+/* ===== HAMBURGER MENU (MOBILE) ===== */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  color: #f5c518;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(10, 10, 10, 0.98);
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar a {
+    margin: 15px 0;
+    font-size: 1.2rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
 /* Glow effect + color change */
 .navbar a:hover {
   color: #f5c518;

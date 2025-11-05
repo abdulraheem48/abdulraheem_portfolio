@@ -1,26 +1,27 @@
 # 💼 Shaik Abdul Raheem | Data Engineer Portfolio  
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/abdulraheem48/abdulraheem-portfolio?color=blue)](https://github.com/abdulraheem48/abdulraheem-portfolio/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/abdulraheem48/abdulraheem-portfolio)](https://github.com/abdulraheem48/abdulraheem-portfolio)
+[![GitHub last commit](https://img.shields.io/github/last-commit/abdulraheem48/abdulraheem_portfolio?color=blue)](https://github.com/abdulraheem48/abdulraheem_portfolio/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/abdulraheem48/abdulraheem_portfolio)](https://github.com/abdulraheem48/abdulraheem_portfolio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Live-green)](https://abdulraheem48.github.io/abdulraheem-portfolio)
+[![Status](https://img.shields.io/badge/Status-Live-green)](https://abdulraheem48.github.io/abdulraheem_portfolio)
 
 ---
 
 ## 🧠 Overview
 
-This is my **personal Data Engineer Portfolio**, designed to showcase my technical skills, certifications, and professional experience in **Data Engineering**, **Cloud Computing**, and **Big Data**.  
+This is my **personal Data Engineer Portfolio**, built to showcase my **skills, certifications, and professional experience** in  
+**Data Engineering**, **Cloud Computing**, and **Big Data**.  
 
-It’s a fully **responsive website** built using **HTML**, **CSS**, and **JavaScript**, with an elegant, modern UI and subtle animations for a polished professional look.
+It is a fully **responsive website** created using **HTML**, **CSS**, and **JavaScript**, featuring an elegant, professional design with modern animations and clean UI.
 
 ---
 
 ## 🎯 Objectives
 
-- Present my profile, experience, and skills in an interactive format.  
-- Showcase key **projects** and **technical stack**.  
-- Provide recruiters and collaborators a direct way to **contact me**.  
-- Build a foundation for future enhancements (API integration, project filtering, etc.).
+- Present my technical background and achievements clearly.  
+- Display **projects**, **skills**, and **certifications** interactively.  
+- Offer recruiters and collaborators a direct way to **connect with me**.  
+- Serve as a foundation for adding **future enhancements** like APIs, search, or filters.
 
 ---
 
@@ -32,7 +33,7 @@ It’s a fully **responsive website** built using **HTML**, **CSS**, and **JavaS
 | **Icons** | Boxicons |
 | **Version Control** | Git, GitHub |
 | **Hosting** | GitHub Pages |
-| **Design** | Responsive Layout, Modern UI Principles |
+| **Design** | Responsive Layout, Smooth Animations, Modern UI |
 
 ---
 
@@ -40,64 +41,65 @@ It’s a fully **responsive website** built using **HTML**, **CSS**, and **JavaS
 
 abdulraheem-portfolio/
 ├─ data/
-│ ├─ profile.jpg
-│ ├─ aws.png
-│ ├─ azure.png
-│ ├─ python.png
-│ ├─ spark.png
-│ ├─ airflow.png
-│ ├─ hadoop.png
-│ ├─ snowflake.png
-│ ├─ powerbi.png
-│ ├─ grafana.png
-│ ├─ matplotlib.png
-│ ├─ databricks.png
-│ ├─ github_actions.png
-│ ├─ ci_cd.png
-│ ├─ problem_solving.png
-│ ├─ Abdul_Raheem_Wipro_Data_Engineer.pdf
-│ ├─ skills.json
-│ ├─ skills_description.js
-│ ├─ aws-saa.png
-│ ├─ snowpro.png
-│ ├─ databricks_sda.png
-│ ├─ az-900.png
-│ └─ aws_ccp.png
+│  ├─ profile.jpg
+│  ├─ aws.png
+│  ├─ azure.png
+│  ├─ python.png
+│  ├─ spark.png
+│  ├─ airflow.png
+│  ├─ hadoop.png
+│  ├─ snowflake.png
+│  ├─ powerbi.png
+│  ├─ grafana.png
+│  ├─ matplotlib.png
+│  ├─ databricks.png
+│  ├─ github_actions.png
+│  ├─ ci_cd.png
+│  ├─ problem_solving.png
+│  ├─ Abdul_Raheem_Wipro_Data_Engineer.pdf
+│  ├─ skills.json
+│  ├─ skills_description.js
+│  ├─ aws-saa.png
+│  ├─ snowpro.png
+│  ├─ databricks_sda.png
+│  ├─ az-900.png
+│  └─ aws_ccp.png
 ├─ index.html
 ├─ style.css
 ├─ script.js
 ├─ README.md
 └─ .gitignore
 
-
 ---
 
 ## 🌟 Features
 
 ✅ **Typing Animation** — introduces multiple professional roles dynamically.  
-✅ **Skills Section** — visual display of all major tools and technologies.  
-✅ **Certifications Section** — includes key cloud certifications (AWS, Azure, Databricks).  
-✅ **Projects Showcase** — highlight of data-driven solutions.  
-✅ **Downloadable Resume (PDF)** — directly accessible under `data/` folder.  
-✅ **Fully Responsive Design** — optimized for mobile, tablet, and desktop.  
-✅ **Modern Aesthetic** — smooth transitions, box shadows, and color harmony.  
+✅ **Responsive Hamburger Menu** — mobile-friendly navigation toggle.  
+✅ **Skills Section** — interactive flip cards with hover glow and info.  
+✅ **Certifications Showcase** — displays key AWS, Azure, Databricks, and Snowflake credentials.  
+✅ **Experience Timeline** — role-based work experience across major clients.  
+✅ **Downloadable Resume (PDF)** — available in the `data/` folder.  
+✅ **Fully Responsive Design** — optimized for desktop, tablet, and mobile.  
+✅ **Elegant UI** — glow effects, animations, and color harmony for a professional look.  
 
 ---
 
-## 🧑‍💻 How to Use Locally
+## ⚙️ How to Run Locally
 
-Follow these steps to view and edit the portfolio locally:
+Follow these steps to view or modify the project locally:
 
 ```bash
 # 1️⃣ Clone this repository
-git clone https://github.com/abdulraheem48/abdulraheem-portfolio.git
+git clone https://github.com/abdulraheem48/abdulraheem_portfolio.git
 
-# 2️⃣ Navigate to the folder
-cd abdulraheem-portfolio
+# 2️⃣ Navigate to the project directory
+cd abdulraheem_portfolio
 
-# 3️⃣ Open the project in your default browser
-open index.html
-
+# 3️⃣ Open index.html in your browser
+open index.html   # (Mac)
+# or
+start index.html  # (Windows)
 
 ## 🌐 Live Deployment (GitHub Pages)
 

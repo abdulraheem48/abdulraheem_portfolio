@@ -137,6 +137,21 @@ if (talkBtn) {
 }
 
 // ========================================
+// ===== MOBILE MENU TOGGLE =====
+// ========================================
+const menuToggle = document.getElementById("menu-toggle");
+const navbar = document.querySelector(".navbar");
+
+if (menuToggle) {
+  menuToggle.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+    const icon = menuToggle.querySelector("i");
+    icon.classList.toggle("bx-menu");
+    icon.classList.toggle("bx-x");
+  });
+}
+
+// ========================================
 // ===== ROLE TYPING ANIMATION (HOME) =====
 // ========================================
 const roles = ["Data Engineer", "Cloud Engineer", "Big Data Engineer"];
