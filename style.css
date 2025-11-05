@@ -232,17 +232,50 @@ header {
   transform: scale(1.03);
 }
 
-/* ===== Responsive ===== */
+/* Tablet-friendly layout (image stays right until 768px) */
 @media (max-width: 1024px) {
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .home-text {
+    flex: 1;
+  }
+  .home-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .home-img img {
+    width: 280px;
+    height: auto;
+  }
+}
+
+/* For small mobile: stack vertically and center */
+@media (max-width: 768px) {
   .home-container {
     flex-direction: column;
     text-align: center;
   }
+
+  .home-text {
+    margin-bottom: 20px;
+  }
+
+  .home-img {
+    justify-content: center;
+  }
+
   .home-img img {
-    width: 320px;
-    margin-top: 40px;
+    width: 250px;
+    margin: 20px auto 0;
   }
 }
+
 
 
 
