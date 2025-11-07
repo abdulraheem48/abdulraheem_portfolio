@@ -461,15 +461,16 @@ header {
 
 /* 🔹 Highlighted (Bold) Text Style */
 .exp-card b {
-  color: #c79aff; /* brighter lavender-purple */
+  color: #d8bfff; /* pretty violet pastel */
   font-weight: 600;
 }
 
-/* Optional glow effect (for visual pop) */
+/* Optional glow for interaction */
 .exp-card b:hover {
-  text-shadow: 0 0 8px rgba(199, 154, 255, 0.8);
+  text-shadow: 0 0 6px rgba(160, 234, 255, 0.7);
   transition: text-shadow 0.3s ease;
 }
+
 
 
 /* ============================
